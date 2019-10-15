@@ -39,16 +39,30 @@ public class Principal {
 		libro2.setPaginas((short) 100);
 		listaLibros.add(libro2);
 
+		Libro libro3 = new Libro();
+		libro3.setId(3);
+		libro3.setIsbn("123-412343423");
+		libro3.setTitulo("Otro libro");
+		libro3.setAutor("Autor X");
+		libro3.setEditor("Editor X");
+		libro3.setPaginas((short) 100);
+
+		listaLibros.add(libro3);
+
 		// Creamos la biblioteca y le asignamos los libros
 		Biblioteca biblioteca = new Biblioteca();
 		Biblioteca biblioteca2 = new Biblioteca();
+
 		biblioteca.setNombre("Fraport Bookstore");
 		biblioteca.setUbicacion("Frankfurt Airport");
+		biblioteca.setListaLibros(listaLibros);
+
+		listaBiblioteca.add(biblioteca);
+
 		biblioteca2.setNombre("Batoi");
 		biblioteca2.setUbicacion("Alcoi");
-		biblioteca.setListaLibros(listaLibros);
 		biblioteca2.setListaLibros(listaLibros);
-		listaBiblioteca.add(biblioteca);
+
 		listaBiblioteca.add(biblioteca2);
 
 		try {
@@ -78,12 +92,10 @@ public class Principal {
 			Catalogo catalogo2 = null;
 			try {
 				catalogo2 = (Catalogo) um.unmarshal(new FileReader(BIBLIOTECA_XML));
-				System.out.println(catalogo);
+				System.out.println(catalogo2);
 			} catch (FileNotFoundException ex) {
 				System.out.println("Parece que el fichero no existe..." + ex.getMessage());
 			}
-
-			
 
 		} catch (JAXBException e) {
 			System.out.println(

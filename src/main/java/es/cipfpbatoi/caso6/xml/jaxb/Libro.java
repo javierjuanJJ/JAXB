@@ -60,7 +60,7 @@ public class Libro {
         this.isbn = isbn;
     }
 
-    @XmlElement(name = "paginas")
+    @XmlElement(name = "pages")
     public short getPaginas() {
         return paginas;
     }

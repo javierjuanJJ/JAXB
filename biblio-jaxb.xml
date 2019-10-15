@@ -1,45 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:biblioteca xmlns:ns2="biblio">
+<ns2:bibliotecas xmlns:ns2="biblios">
     <catalogo>
         <biblioteca>
-            <nombre>Fraport Bookstore</nombre>
-            <ubicacion>Frankfurt Airport</ubicacion>
-            <libros>
-                <libro id="1">
+            <name>Fraport Bookstore</name>
+            <location>Frankfurt Airport</location>
+            <books>
+                <book id="1">
                     <title>The Game</title>
                     <editor>Harpercollins</editor>
                     <author>Neil Strauss</author>
                     <isbn>978-0060554736</isbn>
-                    <paginas>200</paginas>
-                </libro>
-                <libro id="2">
+                    <pages>200</pages>
+                </book>
+                <book id="2">
                     <title>Feuchtgebiete</title>
                     <editor>Dumont Buchverlag</editor>
                     <author>Charlotte Roche</author>
                     <isbn>978-3832180577</isbn>
-                    <paginas>100</paginas>
-                </libro>
-            </libros>
+                    <pages>100</pages>
+                </book>
+                <book id="3">
+                    <title>Otro libro</title>
+                    <editor>Editor X</editor>
+                    <author>Autor X</author>
+                    <isbn>123-412343423</isbn>
+                    <pages>100</pages>
+                </book>
+            </books>
         </biblioteca>
         <biblioteca>
-            <nombre>Batoi</nombre>
-            <ubicacion>Alcoi</ubicacion>
-            <libros>
-                <libro id="1">
+            <name>Batoi</name>
+            <location>Alcoi</location>
+            <books>
+                <book id="1">
                     <title>The Game</title>
                     <editor>Harpercollins</editor>
                     <author>Neil Strauss</author>
                     <isbn>978-0060554736</isbn>
-                    <paginas>200</paginas>
-                </libro>
-                <libro id="2">
+                    <pages>200</pages>
+                </book>
+                <book id="2">
                     <title>Feuchtgebiete</title>
                     <editor>Dumont Buchverlag</editor>
                     <author>Charlotte Roche</author>
                     <isbn>978-3832180577</isbn>
-                    <paginas>100</paginas>
-                </libro>
-            </libros>
+                    <pages>100</pages>
+                </book>
+                <book id="3">
+                    <title>Otro libro</title>
+                    <editor>Editor X</editor>
+                    <author>Autor X</author>
+                    <isbn>123-412343423</isbn>
+                    <pages>100</pages>
+                </book>
+            </books>
         </biblioteca>
     </catalogo>
-</ns2:biblioteca>
+</ns2:bibliotecas>

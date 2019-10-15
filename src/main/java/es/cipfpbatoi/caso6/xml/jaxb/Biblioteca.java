@@ -18,8 +18,8 @@ public class Biblioteca {
     public Biblioteca() {
     }
     
-    @XmlElementWrapper(name = "libros")
-    @XmlElement(name = "libro")
+    @XmlElementWrapper(name = "books")
+    @XmlElement(name = "book")
     public ArrayList<Libro> getListaLibros() {
         return listaLibros;
     }
@@ -27,7 +27,7 @@ public class Biblioteca {
         this.listaLibros = bl;
     }    
 
-    @XmlElement(name = "nombre")
+    @XmlElement(name = "name")
     public String getNombre() {
         return nombre;
     }
@@ -35,7 +35,7 @@ public class Biblioteca {
         this.nombre = nombre;
     }
 
-    @XmlElement(name = "ubicacion")
+    @XmlElement(name = "location")
     public String getUbicacion() {
         return ubicacion;
     }

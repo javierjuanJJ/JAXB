@@ -6,7 +6,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
-@XmlRootElement(name = "biblioteca", namespace = "biblio")
+@XmlRootElement(name = "bibliotecas", namespace = "biblios")
 @XmlType(propOrder = {"bibliotecas"})
 public class Catalogo {
 	private ArrayList<Biblioteca> bibiliotecas;
