@@ -70,7 +70,7 @@ public class Libro {
 
     @Override
     public String toString() {
-        return "Libro{" + "nombre=" + titulo + ", autor=" + autor + ", editor=" + editor + ", isbn=" + isbn + ", paginas=" + paginas + '}';
+        return "\nLibro{" + "nombre=" + titulo + ", autor=" + autor + ", editor=" + editor + ", isbn=" + isbn + ", paginas=" + paginas + '}';
     }   
 
 }
