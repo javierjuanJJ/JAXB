@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "biblioteca", namespace = "biblio")
 @XmlType(propOrder = {"bibliotecas"})
 public class Catalogo {
-	private ArrayList<Biblioteca2> bibiliotecas;
+	private ArrayList<Biblioteca> bibiliotecas;
 	
-	public Catalogo(ArrayList<Biblioteca2> pbibiliotecas) {
+	public Catalogo(ArrayList<Biblioteca> pbibiliotecas) {
 		bibiliotecas=pbibiliotecas;
 	}
 	public Catalogo() {
@@ -23,12 +23,12 @@ public class Catalogo {
 	
 	@XmlElementWrapper(name = "catalogo")
     @XmlElement(name = "biblioteca")
-	public ArrayList<Biblioteca2> getbibliotecas() {
+	public ArrayList<Biblioteca> getbibliotecas() {
 
 		return bibiliotecas;
 	}
 	
-	public void setbibliotecas(ArrayList<Biblioteca2> pbibiliotecas) {
+	public void setbibliotecas(ArrayList<Biblioteca> pbibiliotecas) {
 		bibiliotecas=pbibiliotecas;
 	}
 	

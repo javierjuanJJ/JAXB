@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns2:biblioteca xmlns:ns2="biblio">
-    <nombre>Fraport Bookstore</nombre>
-    <ubicacion>Frankfurt Airport</ubicacion>
-    <libros>
-        <libro id="1">
-            <title>The Game</title>
-            <editor>Harpercollins</editor>
-            <author>Neil Strauss</author>
-            <isbn>978-0060554736</isbn>
-            <paginas>200</paginas>
-        </libro>
-        <libro id="2">
-            <title>Feuchtgebiete</title>
-            <editor>Dumont Buchverlag</editor>
-            <author>Charlotte Roche</author>
-            <isbn>978-3832180577</isbn>
-            <paginas>100</paginas>
-        </libro>
-    </libros>
+    <catalogo>
+        <biblioteca>
+            <nombre>Fraport Bookstore</nombre>
+            <ubicacion>Frankfurt Airport</ubicacion>
+            <libros>
+                <libro id="1">
+                    <title>The Game</title>
+                    <editor>Harpercollins</editor>
+                    <author>Neil Strauss</author>
+                    <isbn>978-0060554736</isbn>
+                    <paginas>200</paginas>
+                </libro>
+                <libro id="2">
+                    <title>Feuchtgebiete</title>
+                    <editor>Dumont Buchverlag</editor>
+                    <author>Charlotte Roche</author>
+                    <isbn>978-3832180577</isbn>
+                    <paginas>100</paginas>
+                </libro>
+            </libros>
+        </biblioteca>
+        <biblioteca>
+            <nombre>Batoi</nombre>
+            <ubicacion>Alcoi</ubicacion>
+            <libros>
+                <libro id="1">
+                    <title>The Game</title>
+                    <editor>Harpercollins</editor>
+                    <author>Neil Strauss</author>
+                    <isbn>978-0060554736</isbn>
+                    <paginas>200</paginas>
+                </libro>
+                <libro id="2">
+                    <title>Feuchtgebiete</title>
+                    <editor>Dumont Buchverlag</editor>
+                    <author>Charlotte Roche</author>
+                    <isbn>978-3832180577</isbn>
+                    <paginas>100</paginas>
+                </libro>
+            </libros>
+        </biblioteca>
+    </catalogo>
 </ns2:biblioteca>
